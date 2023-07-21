@@ -60,7 +60,7 @@ function gameEngine(){
             localStorage.setItem("hiscore", JSON.stringify(hiscoreval));
             hiscoreBox.innerHTML = "HiScore: " + hiscoreval;
         }
-        scoreBox.innerHTML = "Score: " + score;
+        scoreBox.innerHTML = "Pontuação: " + score;
         snakeArr.unshift({x: snakeArr[0].x + inputDir.x, y: snakeArr[0].y + inputDir.y});
         let a = 2;
         let b = 16;
