@@ -33,30 +33,33 @@
 }
 
 #board{
-    background: linear-gradient(rgb(173, 42, 10), rgb(224, 224, 215));
+    background: linear-gradient(rgb(158, 155, 155), rgb(27, 5, 128));
     width: 90vmin;
     height: 92vmin;
-    border: 2px solid black;
+    border: 1px solid black;
     display: grid;
     grid-template-rows: repeat(18, 1fr);
     grid-template-columns: repeat(18, 1fr);
 }
 
+/*cabeça cobra*/
 .head{
-    background: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0));
-    border: 2px solid rgb(34, 4, 34); 
-    transform: scale(1.02);
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgb(0, 0, 0));
+    border: .25vmin solid rgb(255, 253, 253); 
+    transform: scale(1.05);
     border-radius: 9px;
 }
 
+/*corpo cobra*/
 .snake{
-    background-color: rgb(255, 253, 253);
-    border: .25vmin solid rgb(3, 3, 3);
-    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    border: .25vmin solid rgb(255, 0, 0);
+    border-radius: 9px;
 }
 
+/*comida*/
 .food{
-    background: linear-gradient(rgb(3, 3, 3), rgb(248, 204, 6));
-    border: .25vmin solid black;
+    background: linear-gradient(rgb(43, 255, 0), rgb(43, 255, 0));
+    border: .25vmin solid rgb(0, 0, 0);
     border-radius: 8px;
 }
