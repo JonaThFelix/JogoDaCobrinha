@@ -45,7 +45,7 @@ function gameEngine(){
         gameOverSound.play();
         musicSound.pause();
         inputDir =  {x: 0, y: 0}; 
-        alert("Fim do Jogo!\nPressione qualquer tecla para iniciar!");
+        // alert("Fim do Jogo!\nPressione qualquer tecla para iniciar!");
         snakeArr = [{x: 13, y: 15}];
         musicSound.play();
         score = 0; 
